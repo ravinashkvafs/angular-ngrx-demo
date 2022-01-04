@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    align-items: stretch;
+    min-height: 100vh;
+
+    .sub-section {
+        flex: 0.5;
+
+        &.sub-section_1 {
+            background-color: rgb(205, 214, 218);
+        }
+
+        &.sub-section_2 {
+            background-color: rgb(203, 230, 203);
+        }
+    }
+}
